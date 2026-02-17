@@ -1,6 +1,6 @@
 import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react';
 
-const baseUrl = import.meta.env.VITE_SERVER_URL || 'http://localhost:5000';
+const baseUrl = import.meta.env.VITE_SERVER_URL || 'https://demo-cms-server.onrender.com';
 
 export const api = createApi({
   reducerPath: 'api',
